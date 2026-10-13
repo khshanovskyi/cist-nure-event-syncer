@@ -1,0 +1,9 @@
+build
+cmake-build-*
+.git
+.idea
+.claude
+.serena
+.code-review-graph
+secrets
+.env

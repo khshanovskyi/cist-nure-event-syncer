@@ -1,0 +1,24 @@
+{
+  "name": "cist-nure-event-syncer",
+  "version": "0.1.0",
+  "dependencies": [
+    "cpr",
+    "nlohmann-json",
+    "openssl",
+    "spdlog"
+  ],
+  "features": {
+    "syncer": {
+      "description": "Libraries used only by cist-syncer",
+      "dependencies": ["cpp-httplib", "jwt-cpp", "libpqxx"]
+    },
+    "bot": {
+      "description": "Libraries used only by tg-bot",
+      "dependencies": ["tgbot-cpp"]
+    },
+    "tests": {
+      "description": "Unit tests",
+      "dependencies": ["gtest"]
+    }
+  }
+}

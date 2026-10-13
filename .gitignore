@@ -1,0 +1,6 @@
+build/
+cmake-build-*/
+CMakeUserPresets.json
+.idea/workspace.xml
+secrets/
+.env
